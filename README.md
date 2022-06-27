@@ -18,3 +18,5 @@ Let's say we encrypt message 'X' under secret key (K1) with certain noise. We do
 ## Isolated I/O and Memory Mapped I/O
 Reference: https://technobyte.org/difference-memory-mapped-io-mapped-io/ 
 In I/O mapped I/O or isolated I/O mapping, the I/O devices are given a separate addressing region. Separate from what? Separate from the memory. These separate address spaces are known as ‘Ports’.
+
+ Under the Memory-mapped I/O interfacing, the processor treats the I/O devices like any other memory location. The I/O devices are efficiently mapped into the system memory along with the RAM and ROM memory. These devices are assigned with a 16-bit address value within the entire address range of the Intel 8085 Microprocessor.
